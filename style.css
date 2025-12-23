@@ -1,0 +1,73 @@
+/*Reset Básico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 208, 255, 0.058);
+}
+
+.main-header {
+    background-color: #333; 
+    color: white;
+    padding: 15px 30px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.main-nav ul {
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
+}
+
+.main-nav a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: color 0.3s; 
+}
+
+.main-nav a:hover {
+    color: #ffd700; 
+}
+
+.quem_sou_eu{
+    display: flex;
+    gap:20px;
+    align-items:center;
+    padding: 40px;
+}
+
+.imagem.rapha{
+    flex:1;
+    border:2px solid #333;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao{
+    flex: 3;
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+.cards-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 15px;
+    padding: 20px;
+}
+
+.card{
+    border: 2px solid #333;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
