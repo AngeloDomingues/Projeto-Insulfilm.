@@ -17,7 +17,7 @@ body{
     align-items: center; 
 }
 
-.main-nav ul {
+.main-nav {
     list-style: none; 
     display: flex; 
     gap: 20px; 
