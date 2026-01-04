@@ -70,6 +70,12 @@ body{
     perspective: 1000px;
 }
 
+@media (max-width: 768px) {
+    .cards-container{
+        grid-template-columns: 1fr;
+    }
+}
+
 .flip-card-inner{
     position:relative;
     width: 100%;
@@ -126,7 +132,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: rgba(56, 56, 56, 0.167);
     position: absolute;
     backface-visibility: hidden;
     transform: rotateY(180deg);
