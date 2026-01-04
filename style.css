@@ -40,15 +40,15 @@ body{
     gap:30px;
     align-items:center;
     padding: 60px 20px;
+    
 }
 
-.imagem.rapha{
-    flex:1;
-    border:2px solid #333;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-}
+.imagem_rapha img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-radius: 8px;
+    }
 
 .apresentacao{
     flex: 3;
@@ -130,7 +130,7 @@ body{
     height: 100%;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(56, 56, 56, 0.167);
     position: absolute;
@@ -139,5 +139,8 @@ body{
     padding: 20px;
     top: 0;
     left: 0;
-}
+    flex-direction: column;
+    }
+
+
 
